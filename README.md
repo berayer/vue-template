@@ -16,5 +16,5 @@
 |          名称           |          说明          |
 | :---------------------: | :--------------------: |
 |  unplugin-auto-import   |    API 自动导入插件    |
-|     unplugin-icons      | 图表插件,方便使用 icon |
+|     unplugin-icons      | 图标插件,方便使用 icon |
 | unplugin-vue-components |    组件自动导入插件    |

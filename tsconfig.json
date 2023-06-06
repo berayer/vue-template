@@ -18,13 +18,13 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "~/*": ["./*"]
+    },
+    "types": ["vite/client", "unplugin-icons/types/vue", "naive-ui/volar"]
   },
-  "baseUrl": "./",
-  "paths": {
-    "@/*": ["src/*"],
-    "~/*": ["./*"]
-  },
-  "types": ["vite/client", "unplugin-icons/types/vue", "naive-ui/volar"],
   "exclude": ["node_modules", "dist"]
 }
